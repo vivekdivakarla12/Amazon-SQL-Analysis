@@ -9,3 +9,10 @@ Goals:
 
 
 Dataset Source: https://dataverse.harvard.edu/dataset.xhtml?persistentId=doi:10.7910/DVN/YGLYDY
+
+The data is in 2 main CSV files, so the first step was to get this data to tables in SQLite. This was done by using the .import function
+
+Exploratory Data Analysis: 
+First, I wanted to explore the dataset to understand how it looks. There are 1,850,718 total records in the Amazon.com purchases data, while just 5028 records from the survey dataset. 
+Shown below is a list of the Top 10 selling categories in 2022. 
+<img width="417" alt="Screenshot 2025-01-03 at 2 43 33 PM" src="https://github.com/user-attachments/assets/0b5468ea-d50b-49a3-bb79-c6f97e905d9c" />
