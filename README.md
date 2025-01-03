@@ -14,6 +14,7 @@ The data is in 2 main CSV files, so the first step was to get this data to table
 
 Exploratory Data Analysis: 
 First, I wanted to explore the dataset to understand how it looks. There are 1,850,718 total records in the Amazon.com purchases data, while just 5028 records from the survey dataset. 
-Shown below is a list of the Top 10 selling categories in 2022. 
+Shown below is a list of the Top 10 selling categories in 2022, and the same query shown in a bar chart. 
 
 <img width="417" alt="Screenshot 2025-01-03 at 2 43 33 PM" src="https://github.com/user-attachments/assets/0b5468ea-d50b-49a3-bb79-c6f97e905d9c" />
+<img width="1031" alt="Screenshot 2025-01-03 at 4 02 56 PM" src="https://github.com/user-attachments/assets/14a7a71d-5649-431b-b6c5-e82a532839c3" />
