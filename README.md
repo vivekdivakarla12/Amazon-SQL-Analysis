@@ -10,7 +10,8 @@ Goals:
 
 Dataset Source: https://dataverse.harvard.edu/dataset.xhtml?persistentId=doi:10.7910/DVN/YGLYDY
 
-The data is in 2 main CSV files, so the first step was to get this data to tables in SQLite. This was done by using the .import function
+The data is in 2 main CSV files, so the first step was to get this data to tables in SQLite. This was done by using the .import function. 
+The commands used are in the Amazon Table Creation file, where I created two tables, imported the data from the CSVs, and made a table joining the two tables together, called purchases and surveys. 
 
 Exploratory Data Analysis: 
 First, I wanted to explore the dataset to understand how it looks. There are 1,850,718 total records in the Amazon.com purchases data, while just 5028 records from the survey dataset. 
@@ -18,3 +19,7 @@ Shown below is a list of the Top 10 selling categories in 2022, and the same que
 
 <img width="417" alt="Screenshot 2025-01-03 at 2 43 33 PM" src="https://github.com/user-attachments/assets/0b5468ea-d50b-49a3-bb79-c6f97e905d9c" />
 <img width="1031" alt="Screenshot 2025-01-03 at 4 02 56 PM" src="https://github.com/user-attachments/assets/14a7a71d-5649-431b-b6c5-e82a532839c3" />
+
+After doing some exploratory data analysis on the dataset, I wanted to analyze user behavior on income levels and geographic location. First, I was looking at income levels, comparing it to purchase price per unit. As expected, as the income became greater, the average purchase price also increased. However, an interesting insight is that the highest income level does not buy the most items, but it is fifth out of the seven levels. This suggests that while wealthier individuals spend more per item, they may not purchase as frequently as middle-income groups.
+
+
