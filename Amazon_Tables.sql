@@ -1,3 +1,4 @@
+-- Creating table for amazon purchases, and importing from the CSV file
 CREATE TABLE amazon_purchases (
     Order_Date TEXT,
     Purchase_Price_Per_Unit REAL,
@@ -12,6 +13,20 @@ CREATE TABLE amazon_purchases (
 .mode csv 
 .import amazon-purchases.csv amazon_purchases
 
+-- Getting Top Categories from 2022
+SELECT
+Category,
+SUM(Purchase_Price_Per_Unit * Quantity) AS Total_Spent
+FROM
+amazon_purchases
+WHERE
+strftime ('%Y', Order _Date) = ' 2022'
+GROUP BY
+Category
+ORDER BY
+Total_Spent DESC
+
+-- Creating table for amazon survey data, and importing from the CSV file
 CREATE TABLE amazon_survey (
     Survey_ResponseID TEXT,
     Q_demos_age TEXT,
@@ -40,7 +55,8 @@ CREATE TABLE amazon_survey (
 
 .mode csv 
 .import survey.csv amazon_survey
-
+    
+-- Join between the purchase and survey data on Survey Response ID
 CREATE TABLE purchases_and_survey AS
 SELECT * 
 FROM amazon_purchases 
