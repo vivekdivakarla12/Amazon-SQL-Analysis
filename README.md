@@ -30,9 +30,21 @@ This dataset includes demographic information and other consumer-level variables
 These two CSVs were imported into SQLite using the .import function, and joined together on the Survey Response ID column, using the queries in the Amazon Table Creation file
 
 ## Exploratory Data Analysis:
-The dataset was first explored to understand its structure. The amazon-purchases.csv file contains a total of 1,850,718 records, while the survey.csv file includes just 5028 records.Shown below is a list of the Top 10 selling categories in 2022, and the same query shown in a bar chart.
+The dataset was first explored to understand its structure. The amazon-purchases.csv file contains a total of 1,850,718 records, while the survey.csv file includes just 5028 
+Before conducting in-depth analysis, an initial exploratory data analysis (EDA) was performed to assess the dataset's quality and distribution.
 
-![Image 1](https://github.com/user-attachments/assets/0b5468ea-d50b-49a3-bb79-c6f97e905d9c) ![Image 2](https://github.com/user-attachments/assets/14a7a71d-5649-431b-b6c5-e82a532839c3)
+Missing Values: No null values were found in key fields such as Order Date, Purchase Price Per Unit, Quantity, Survey ResponseID, and Q-demos-income, ensuring data completeness.
+Purchase Price Per Unit Analysis: A boxplot was generated to visualize the distribution of Purchase Price Per Unit, identifying potential outliers.
+Sorting by Purchase Price Per Unit: The dataset was sorted in descending order to examine the highest purchase prices and detect any anomalies or extreme values.
+Sorting by Quantity: The dataset was sorted in descending order to examine the highest quantities purchased and detect any anomalies or extreme values.
+Upon reviewing these values alongside corresponding quantities, all outliers were found to be reasonable, suggesting no data entry errors or inconsistencies.
+These initial insights helped guide further analysis into consumer purchasing behavior based on income levels and geographic location.
+records.
+Shown here is the boxplot of purchase price per unit of each order in the dataset. 
+<img width="538" alt="Screenshot 2025-02-18 at 2 49 02 PM" src="https://github.com/user-attachments/assets/b4c0181d-523a-4da1-ab73-922498a1e809" />
+
+The bar chart below shows the top 10 categories purchased from 2022
+![Image 2](https://github.com/user-attachments/assets/14a7a71d-5649-431b-b6c5-e82a532839c3)
 
 ## Analyzing User Behavior:
 After conducting exploratory data analysis on the dataset, the focus shifted to analyzing user behavior based on income levels and geographic location.
