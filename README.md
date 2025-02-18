@@ -43,7 +43,7 @@ These initial insights helped guide further analysis into consumer purchasing be
 records.
 
 Shown here is the boxplot of purchase price per unit of each order in the dataset. 
-<img width="538" alt="Screenshot 2025-02-18 at 2 49 02 PM" src="https://github.com/user-attachments/assets/b4c0181d-523a-4da1-ab73-922498a1e809" />
+<img src="https://github.com/user-attachments/assets/b4c0181d-523a-4da1-ab73-922498a1e809" width="200">
 
 The bar chart below shows the top 10 categories purchased from 2022. Books, Pet Food, and Gift Cards were the most popular categories. 
 ![Image 2](https://github.com/user-attachments/assets/14a7a71d-5649-431b-b6c5-e82a532839c3)
