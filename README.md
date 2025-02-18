@@ -48,7 +48,7 @@ Shown here is the boxplot of purchase price per unit of each order in the datase
 <img src="https://github.com/user-attachments/assets/b4c0181d-523a-4da1-ab73-922498a1e809" width="300">
 
 The bar chart below shows the top 10 categories purchased from 2022. Books, Pet Food, and Gift Cards were the most popular categories. 
-![Image 2](https://github.com/user-attachments/assets/14a7a71d-5649-431b-b6c5-e82a532839c3)
+<img src="https://github.com/user-attachments/assets/14a7a71d-5649-431b-b6c5-e82a532839c3" width="300">
 
 ## Analyzing User Behavior:
 After conducting exploratory data analysis on the dataset, the focus shifted to analyzing user behavior based on income levels and geographic location.
