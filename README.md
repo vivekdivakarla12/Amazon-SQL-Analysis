@@ -10,7 +10,20 @@ This project leverages SQL to analyze Amazon purchase and survey data to uncover
 ## Dataset Source:
 [Amazon Purchase and Survey Data](https://dataverse.harvard.edu/dataset.xhtml?persistentId=doi:10.7910/DVN/YGLYDY)
 
-The data is in 2 main CSV files, so the first step was to get this data into tables in SQLite. This was done by using the `.import` function. The commands used are in the Amazon Table Creation file, where I created two tables, imported the data from the CSVs, and made a table joining the two tables together, called purchases and surveys. 
+This project utilizes two main datasets: amazon-purchases.csv and survey.csv. The two datasets are combined to provide a comprehensive view of consumer behavior and demographic information.
+
+amazon-purchases.csv:
+- This dataset contains longitudinal purchase data from 5027 Amazon.com users in the U.S., spanning from 2018 to 2022. Each row in this file represents an individual Amazon order, with the following columns:
+-- Survey ResponseID: A unique identifier that links survey responses to Amazon purchases.
+-- Order date: The date when the order was placed.
+-- Shipping address state: The state to which the order was shipped.
+-- Purchase price per unit: The price of each item in the order.
+-- Quantity: The number of items purchased.
+-- ASIN/ISBN (Product Code): The Amazon Standard Identification Number or ISBN of the product.
+-- Title: The title or name of the product.
+-- Category: The category of the product.
+survey.csv:
+- This dataset includes demographic information and other consumer-level variables for each user. The data was collected through an online survey, which provides insights into user characteristics, preferences, and behaviors. The fields in this file correspond to various survey questions, and further details about the questions and possible responses can be found in the survey instrument.
 
 ## Exploratory Data Analysis:
 First, I wanted to explore the dataset to understand how it looks. There are 1,850,718 total records in the Amazon.com purchases data, while just 5028 records from the survey dataset. 
