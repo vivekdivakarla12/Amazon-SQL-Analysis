@@ -33,13 +33,15 @@ These two CSVs were imported into SQLite using the .import function, and joined 
 The dataset was first explored to understand its structure. The amazon-purchases.csv file contains a total of 1,850,718 records, while the survey.csv file includes just 5028 
 Before conducting in-depth analysis, an initial exploratory data analysis (EDA) was performed to assess the dataset's quality and distribution.
 
-Missing Values: No null values were found in key fields such as Order Date, Purchase Price Per Unit, Quantity, Survey ResponseID, and Q-demos-income, ensuring data completeness.
-Purchase Price Per Unit Analysis: A boxplot was generated to visualize the distribution of Purchase Price Per Unit, identifying potential outliers.
-Sorting by Purchase Price Per Unit: The dataset was sorted in descending order to examine the highest purchase prices and detect any anomalies or extreme values.
-Sorting by Quantity: The dataset was sorted in descending order to examine the highest quantities purchased and detect any anomalies or extreme values.
+- Missing Values: No null values were found in key fields such as Order Date, Purchase Price Per Unit, Quantity, Survey ResponseID, and Q-demos-income, ensuring data completeness.
+- Purchase Price Per Unit Analysis: A boxplot was generated to visualize the distribution of Purchase Price Per Unit, identifying potential outliers.
+- Sorting by Purchase Price Per Unit: The dataset was sorted in descending order to examine the highest purchase prices and detect any anomalies or extreme values.
+- Sorting by Quantity: The dataset was sorted in descending order to examine the highest quantities purchased and detect any anomalies or extreme values.
+
 Upon reviewing these values alongside corresponding quantities, all outliers were found to be reasonable, suggesting no data entry errors or inconsistencies.
 These initial insights helped guide further analysis into consumer purchasing behavior based on income levels and geographic location.
 records.
+
 Shown here is the boxplot of purchase price per unit of each order in the dataset. 
 <img width="538" alt="Screenshot 2025-02-18 at 2 49 02 PM" src="https://github.com/user-attachments/assets/b4c0181d-523a-4da1-ab73-922498a1e809" />
 
