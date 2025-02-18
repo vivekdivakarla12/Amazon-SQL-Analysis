@@ -22,6 +22,8 @@ This dataset contains longitudinal purchase data from 5027 Amazon.com users in t
 - ASIN/ISBN (Product Code): The Amazon Standard Identification Number or ISBN of the product.
 - Title: The title or name of the product.
 - Category: The category of the product.
+
+
 survey.csv:
 This dataset includes demographic information and other consumer-level variables for each user. The data was collected through an online survey, which provides insights into user characteristics, preferences, and behaviors. The fields in this file correspond to various survey questions, and further details about the questions and possible responses can be found in the survey instrument.
 
