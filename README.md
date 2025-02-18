@@ -40,4 +40,5 @@ On the other end, states like West Virginia (WV) and Washington, D.C. had the lo
 
 This analysis suggests that purchasing behavior, and potentially even product preferences, may vary significantly depending on the region. Such insights could help target marketing campaigns or understand regional differences in purchasing power.
 <img width="863" alt="Screenshot 2025-02-18 at 1 42 57 PM" src="https://github.com/user-attachments/assets/8040f180-43ad-4b56-ba0c-39242100af54" />
+
 *Geographic Purchase Patterns*
