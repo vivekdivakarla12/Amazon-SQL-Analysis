@@ -30,5 +30,14 @@ I first analyzed how income levels correlate to the average purchase price per u
 
 ### Geographic Location:
 Additionally, I examined how geographic location impacts purchasing behavior and preferences. This analysis aimed to reveal any regional trends that could inform marketing and sales strategies.
+In addition to analyzing income levels, I also explored how geographic location impacts purchasing behavior. By examining the Shipping Address State and Purchase Price Per Unit, I observed significant regional variations. Below is a breakdown of the average purchase price per unit across different U.S. states, where states like Wyoming (WY) and Maine (ME) had higher average prices, while states like West Virginia (WV) and Washington, D.C. had lower prices.
 
+Here are some key insights from the geographic analysis:
+Highest Average Purchase Prices:
+Wyoming (WY) stands out with the highest average purchase price per unit at $30.88, followed closely by Maine (ME) at $28.85 and Puerto Rico (PR) at $28.85.
+Lowest Average Purchase Prices:
+On the other end, states like West Virginia (WV) and Washington, D.C. had the lowest purchase prices, at $18.41 and $18.76, respectively.
+
+This analysis suggests that purchasing behavior, and potentially even product preferences, may vary significantly depending on the region. Such insights could help target marketing campaigns or understand regional differences in purchasing power.
+<img width="863" alt="Screenshot 2025-02-18 at 1 42 57 PM" src="https://github.com/user-attachments/assets/8040f180-43ad-4b56-ba0c-39242100af54" />
 *Geographic Purchase Patterns*
