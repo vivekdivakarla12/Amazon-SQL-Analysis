@@ -56,8 +56,9 @@ After conducting exploratory data analysis on the dataset, the focus shifted to 
 ### Income Levels:
 The analysis began by examining how income levels correlate with the average purchase price per unit. As expected, higher income levels were associated with higher average purchase prices. However, an interesting insight emerged: the highest income level did not result in the most items purchased, ranking fifth out of the seven income levels. This suggests that while wealthier individuals tend to spend more per item, they may not purchase as frequently as middle-income groups.
 
-![Income vs Purchase Price](https://github.com/user-attachments/assets/468b754e-c1f3-4b26-adf5-93e068387cd9)  
-![Income vs Quantity](https://github.com/user-attachments/assets/4b0f3e6b-37ae-4f56-981a-02af14380200)  
+![Income vs Purchase Price](https://github.com/user-attachments/assets/468b754e-c1f3-4b26-adf5-93e068387cd9) 
+<img src="https://github.com/user-attachments/assets/468b754e-c1f3-4b26-adf5-93e068387cd9" width="350">
+<img width="350" alt="Screenshot 2025-02-19 at 2 55 41 PM" src="https://github.com/user-attachments/assets/fc7923d4-5fd4-41f9-89f5-31171d62df86" />
 *Income vs Purchase Price*
 
 ### Geographic Location:
