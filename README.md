@@ -58,7 +58,8 @@ The analysis began by examining how income levels correlate with the average pur
 
 <img src="https://github.com/user-attachments/assets/468b754e-c1f3-4b26-adf5-93e068387cd9" width="350">
 <img width="350" alt="Screenshot 2025-02-19 at 2 55 41 PM" src="https://github.com/user-attachments/assets/fc7923d4-5fd4-41f9-89f5-31171d62df86" />
-*Income vs Purchase Price*
+
+*Income vs Purchase Price and Quantity*
 
 ### Geographic Location:
 Additionally, geographic location was examined to understand its impact on purchasing behavior and preferences. This analysis aimed to identify regional trends that could inform marketing and sales strategies. By analyzing the Shipping Address State and Purchase Price Per Unit, significant regional variations were observed. States such as Wyoming (WY) and Maine (ME) had higher average prices, while states like West Virginia (WV) and Washington, D.C. exhibited lower prices.
