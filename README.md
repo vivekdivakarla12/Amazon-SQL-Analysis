@@ -1,6 +1,6 @@
 # Amazon-SQL-Analysis
 
-This project leverages SQL to analyze Amazon purchase and survey data to uncover trends in user behavior. The analysis focuses on understanding how various factors—such as income, location, household size, and other demographics—impact purchasing patterns and survey responses.
+This project leverages SQL and Python to analyze Amazon purchase and survey data to uncover trends in user behavior. The analysis focuses on understanding how various factors—such as income, location, household size, and other demographics—impact purchasing patterns and survey responses.
 
 ## Goals:
 - **Identify Behavioral Trends:** Analyze how user behavior varies based on income levels, geographic location, household size, and other relevant attributes.
