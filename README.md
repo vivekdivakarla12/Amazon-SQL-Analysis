@@ -85,6 +85,6 @@ Midwestern and Northeastern states exhibit lower average purchase prices (blue h
 In this project, SQL and Python were utilized to analyze Amazon purchase and survey data, focusing on understanding trends in user behavior influenced by income, geographic location, household size, and other demographic factors.
 
 ### Tools Used:
-SQL: For data import, integration, and initial analysis within an SQLite database.
-Python (Pandas): For further analysis and visualization of the combined dataset, allowing for a deeper understanding of consumer behavior.
-Matplotlib (Data Visualization): Various plots (boxplots, bar charts, and geographic maps) were employed to effectively present the insights gained from the analysis.
+- SQL: For data import, integration, and initial analysis within an SQLite database.
+- Python (Pandas): For further analysis and visualization of the combined dataset, allowing for a deeper understanding of consumer behavior.
+- Matplotlib (Data Visualization): Various plots (boxplots, bar charts, and geographic maps) were employed to effectively present the insights gained from the analysis.
