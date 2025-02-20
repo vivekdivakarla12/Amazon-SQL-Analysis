@@ -27,7 +27,7 @@ This dataset contains longitudinal purchase data from 5027 Amazon.com users in t
 survey.csv:
 This dataset includes demographic information and other consumer-level variables for each user. The data was collected through an online survey, which provides insights into user characteristics, preferences, and behaviors. The fields in this file correspond to various survey questions, and further details about the questions and possible responses can be found in the survey instrument.
 
-These two CSVs were imported into SQLite using the .import function, and joined together on the Survey Response ID column, using the queries in the Amazon Table Creation file
+These two CSVs were imported into SQLite using the .import function, and joined together on the Survey Response ID column, using the queries in the Amazon Table Creation file. After the SQLite analysis, the connection was made in Python, and the dataframe was created in Pandas for further analysis. 
 
 ## Exploratory Data Analysis:
 The dataset was first explored to understand its structure. The amazon-purchases.csv file contains a total of 1,850,718 records, while the survey.csv file includes just 5028 
