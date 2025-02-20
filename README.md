@@ -1,6 +1,6 @@
 # Amazon-SQL-Analysis
 
-This project leverages SQL and Python to analyze Amazon purchase and survey data to uncover trends in user behavior. The analysis focuses on understanding how various factors—such as income, location, household size, and other demographics—impact purchasing patterns and survey responses.
+This project leverages SQL and Python to analyze Amazon purchase and survey data to uncover trends in user behavior. The analysis focuses on understanding how various factors—such as income, location, and other demographics—impact purchasing patterns and survey responses.
 
 ## Goals:
 - **Identify Behavioral Trends:** Analyze how user behavior varies based on income levels, geographic location, household size, and other relevant attributes.
@@ -30,7 +30,8 @@ This dataset includes demographic information and other consumer-level variables
 These two CSVs were imported into SQLite using the .import function, and joined together on the Survey Response ID column, using the queries in the Amazon Table Creation file. After the SQLite analysis, the connection was made in Python, and the dataframe was created in Pandas for further analysis. 
 
 ## Exploratory Data Analysis:
-The dataset was first explored to understand its structure. The amazon-purchases.csv file contains a total of 1,850,718 records, while the survey.csv file includes just 5028 
+The dataset was first explored to understand its structure. The amazon-purchases.csv file contains a total of 1,850,718 records, while the survey.csv file includes 5028 responses. 
+
 Before conducting in-depth analysis, an initial exploratory data analysis (EDA) was performed to assess the dataset's quality and distribution.
 
 - Missing Values: No null values were found in key fields such as Order Date, Purchase Price Per Unit, Quantity, Survey ResponseID, and Q-demos-income, ensuring data completeness.
