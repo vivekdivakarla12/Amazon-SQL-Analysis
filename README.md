@@ -54,7 +54,7 @@ The bar chart below shows the top 10 categories purchased from 2022. Books, Pet 
 After conducting exploratory data analysis on the dataset, the focus shifted to analyzing user behavior based on income levels and geographic location.
 
 ### Income Levels:
-The analysis began by examining how income levels correlate with the average purchase price per unit. As expected, higher income levels were associated with higher average purchase prices. However, an interesting insight emerged: the highest income level did not result in the most items purchased, ranking fifth out of the seven income levels. This suggests that while wealthier individuals tend to spend more per item, they may not purchase as frequently as middle-income groups.
+The analysis began by examining how income levels correlate with the average purchase price per unit. As expected, higher income levels were associated with higher average purchase prices. However, an interesting insight emerged: the highest income level did not result in the most items purchased, ranking fifth out of the seven income levels. This suggests that while wealthier individuals tend to spend more per item, they may not purchase as frequently as middle-income groups. Notably, the $50,000–$74,999 and $100,000–$149,999 income groups had higher purchase quantities than those earning $150,000 or more, indicating that middle-to-upper-middle-income consumers are more active purchasers.
 
 <img src="https://github.com/user-attachments/assets/468b754e-c1f3-4b26-adf5-93e068387cd9" width="350">
 <img width="350" alt="Screenshot 2025-02-19 at 9 54 03 PM" src="https://github.com/user-attachments/assets/91bd092d-8dd9-485a-b084-1c595ee4bbb7" />
