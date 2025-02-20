@@ -65,9 +65,9 @@ The analysis began by examining how income levels correlate with the average pur
 ### Geographic Location:
 Additionally, geographic location was examined to understand its impact on purchasing behavior and preferences. This analysis aimed to identify regional trends that could inform marketing and sales strategies. By analyzing the Shipping Address State and Purchase Price Per Unit, significant regional variations were observed. States such as Wyoming (WY) and Maine (ME) had higher average prices, while states like West Virginia (WV) and Washington, D.C. exhibited lower prices.
 Here are some key insights from the geographic analysis:
-Highest Average Purchase Prices:
+- Highest Average Purchase Prices:
 Wyoming (WY) stands out with the highest average purchase price per unit at $30.88, followed closely by Maine (ME) at $28.85 and Puerto Rico (PR) at $28.85.
-Lowest Average Purchase Prices:
+- Lowest Average Purchase Prices:
 On the other end, states like West Virginia (WV) and Washington, D.C. had the lowest purchase prices, at $18.41 and $18.76, respectively.
 
 This analysis suggests that purchasing behavior, and potentially even product preferences, may vary significantly depending on the region. Such insights could help target marketing campaigns or understand regional differences in purchasing power.
