@@ -71,8 +71,10 @@ On the other end, states like West Virginia (WV) and Washington, D.C. had the lo
 
 This analysis suggests that purchasing behavior, and potentially even product preferences, may vary significantly depending on the region. Such insights could help target marketing campaigns or understand regional differences in purchasing power.
 <img width="350" alt="Screenshot 2025-02-18 at 1 42 57 PM" src="https://github.com/user-attachments/assets/8040f180-43ad-4b56-ba0c-39242100af54" />
-<img width="891" alt="Screenshot 2025-02-19 at 9 43 01 PM" src="https://github.com/user-attachments/assets/dff09858-3996-48bf-9048-4bd7e0540790" />
+<img width="350" alt="Screenshot 2025-02-19 at 9 43 01 PM" src="https://github.com/user-attachments/assets/dff09858-3996-48bf-9048-4bd7e0540790" />
+
 *Geographic Purchase Patterns*
+
 The map visualization highlights regional differences in the average purchase price of Amazon orders across the United States.
 Northwestern states (such as Wyoming, Utah, and Idaho) show higher average purchase prices (red hues). This suggests that consumers in these states tend to spend more per order rather than products being inherently more expensive.
 Midwestern and Northeastern states exhibit lower average purchase prices (blue hues), indicating that consumers in these regions may be making smaller or less expensive purchases on average.
